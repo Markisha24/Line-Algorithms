@@ -39,13 +39,13 @@ public class BasicAlgorithm {
 	    mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	    BasicAlg graphics = new BasicAlg();
 	    
-	    graphics.setPreferredSize((new Dimension(1000, 1000)));
+	    graphics.setPreferredSize((new Dimension(800, 800)));
 	    mainFrame.getContentPane().add(graphics);
 	    mainFrame.pack();
 	    mainFrame.setVisible(true);
 	    
 	  //number of lines
-	  int n = 100;
+	  int n = 50;
 	  						
 	  //minimum value a point can have
 	  int min = 0;
